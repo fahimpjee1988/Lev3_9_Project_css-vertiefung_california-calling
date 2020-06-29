@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+#firstsection{
+    background: black;
+    color: white;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    
+    
+}
+
+#firstsection article:first-of-type{
+    text-align: center;
+    padding-top: 15%;
+}
+
+#firstsection h1{
+    font-size: 45px;
+    width: 80%;
+}
+#firstsection h2{
+    font-size: 45px;
+    width: 80%;
+}
+
+#firstsection article:nth-of-type(2){
+    position: relative;
+}
+
+.lastimg img{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    width: 60%;
+}
+
+.logobutton {
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+.logobutton a{
+    
+    border: 2px solid white;
+text-decoration: none;
+padding: 10px 20px;
+}
+.logobutton a:visited{
+    
+    color:white;
+    
+    
+}
+
+.logobutton a:hover{
+    background: black;
+    color: white;
+}
+
+#firstsection article:nth-of-type(2){
+    width: 80%;
+    position: relative;
+    text-align: center;
+  
+}
+
+.pfirstsection{
+    padding-top: 10%;
+}
+
+
+
+#sectiontwo{
+    position: relative;
+}
+
+.secimg img{
+    width:50%;
+}
+
+.secimg div:nth-of-type(1){
+   
+   
+    position: absolute;
+    top: -400px;
+    left: 400px;
+
+}
+
+.secimg div:nth-of-type(2){
+   
+   
+    position: absolute;
+    top: -200px;
+    left: 80px;
+    width: 50%;
+
+}
+.secimg div:nth-of-type(3){
+   
+    
+    position: absolute;
+    top: -50px;
+    left: 600px;
+    width:50%;
+
+}
+.secimg div:nth-of-type(4){
+   
+    
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 50%;
+
+}
+.secimg div:nth-of-type(5){
+   
+   
+    position: absolute;
+    top: 300px;
+    left: 390px;
+    width: 50%;
+
+}
+.secimg div:nth-of-type(6){
+   
+   
+    position: absolute;
+    top: 450px;
+    left: 40px;
+    width: 40%;
+
+}
+.secimg div:nth-of-type(7){
+   
+    
+    position: absolute;
+    top: 750px;
+    left: 400px;
+    width:70%;
+
+}
+#sectiontwo h1, p{
+    text-align: center;
+    width: 40%;
+    margin:0 auto
+
+}
+
+#sectiontwo h1{
+    font-size: 45px;
+    margin-top: 40%;
+    text-align: left;
+    line-height: 40px;
+}
+
+#sectiontwo p{
+    margin-top:5%;
+    margin-bottom: 30%;
+    line-height: 20px;
+}
+
+.sectiontwo p:last-of-type{
+    padding-top:55%;
+    
+}
+#section3{
+    background:black;
+    color: white;
+    padding-top:30%;
+    padding-bottom:50%;
+}
+#section3 article{
+    display:flex;
+    text-align: left;
+    height:50vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.left{
+    text-align: left;
+    width:50%
+}
+
+#section3 h1{
+    font-size: 70px;
+}
+
+#section3 p{
+    padding-top:12%;
+}
+#twoimgs{
+    position: relative;
+}
+
+#twoimgs div:nth-of-type(1) img {
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    width: 35%;
+    z-index: 1;
+ 
+}
+#twoimgs div:nth-of-type(2) img {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 55%;
+ 
+}
+
+#section4{
+    background:white;
+    color: black;
+    padding-top:30%;
+    padding-bottom:50%;
+}
+#section4 article{
+    display:flex;
+    text-align: left;
+    height:50vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.left{
+    text-align: left;
+    width:50%
+}
+
+#section4 h1{
+    font-size: 70px;
+}
+
+#section4 p{
+    padding-top:12%;
+
+
+
+}
+
+#twoimgses{
+    position: relative;
+}
+
+#twoimgses div:nth-of-type(1) img {
+    position: absolute;
+    top: 40px;
+    left: 350px;
+    width: 55%;
+   
+ 
+}
+#twoimgses div:nth-of-type(2) img {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 35%;
+    z-index: 1;
+}
+
+
+#section5{
+background:black;
+color:white;
+padding-top:25%;
+height:70vh;
+padding-left: 5%;
+}
+
+#section5 p, h1{
+width:50%;
+text-align: left;
+padding-top:5%;
+padding-bottom:5%;
+
+}
+
+#section5 a{
+    border: 2px solid white;
+text-decoration: none;
+padding: 10px 20px; 
+}
+
+#section5 a:visited{
+    color: white;
+}
+
+#section5 a:hover{
+    background: white;
+    color: black;
+}
